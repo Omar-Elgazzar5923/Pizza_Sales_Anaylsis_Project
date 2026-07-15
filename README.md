@@ -21,3 +21,6 @@ The project demonstrates the complete data analysis workflow, including data cle
 2. MS SQL Server
 3. Power Bi
 4. DAX
+
+[Dataset used]([https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP](https://drive.google.com/file/d/11-6ahyMHzXEZr5qcQKP3x2fh_KgG1jpQ/view?usp=sharing))
+[SQL Analysis-code](SQL Anaylsis)
