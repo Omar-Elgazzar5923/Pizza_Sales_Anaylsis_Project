@@ -9,8 +9,8 @@ The project demonstrates the complete data analysis workflow, including data cle
 
 ## 🎯 Business Objectives
 
-## 1.Measure overall sales performance.
-## 2.Identify peak sales periods.
-## 3.Analyze product performance.
-## 4.Evaluate customer ordering behavior.
-## 5.Support business decisions using data.
+1.Measure overall sales performance.
+2.Identify peak sales periods.
+3.Analyze product performance.
+4.Evaluate customer ordering behavior.
+5.Support business decisions using data.
