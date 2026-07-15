@@ -22,5 +22,6 @@ The project demonstrates the complete data analysis workflow, including data cle
 3. Power Bi
 4. DAX
 
-[Dataset used](https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP](https://drive.google.com/file/d/11-6ahyMHzXEZr5qcQKP3x2fh_KgG1jpQ/view?usp=sharing))
-[SQL Analysis-code](SQL Anaylsis)
+[Dataset used](https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP](https://drive.google.com/file/d/11-6ahyMHzXEZr5qcQKP3x2fh_KgG1jpQ/view?usp=sharing))  
+
+[SQL Anaylsis](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/SQL%20Anaylsis.sql)
