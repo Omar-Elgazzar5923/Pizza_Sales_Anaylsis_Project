@@ -22,11 +22,11 @@ The project demonstrates the complete data analysis workflow, including data cle
 3. Power Bi
 4. DAX
 
- [Dataset used](https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP](https://drive.google.com/file/d/11-6ahyMHzXEZr5qcQKP3x2fh_KgG1jpQ/view?usp=sharing))  
+  [Dataset used](https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP](https://drive.google.com/file/d/11-6ahyMHzXEZr5qcQKP3x2fh_KgG1jpQ/view?usp=sharing))  
 
- [SQL Anaylsis](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/SQL%20Anaylsis.sql)  
+  [SQL Anaylsis](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/SQL%20Anaylsis.sql)  
 
- [Project Dashboard](https://drive.google.com/file/d/13IyPZSsyy5lR7JjYbZ5pIVY6B11mgSd-/view?usp=sharing)   
+  [Project Dashboard](https://drive.google.com/file/d/13IyPZSsyy5lR7JjYbZ5pIVY6B11mgSd-/view?usp=sharing)   
 
 ## 📈 Key Insights
 
@@ -41,3 +41,37 @@ The project demonstrates the complete data analysis workflow, including data cle
 1) Total Revenue :
    ```sql
     SELECT ROUND(SUM(total_price),2) AS Total_Revenue FROM pizza_sales;
+
+2) Total Orders :
+   ```sql
+    SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales;
+   
+3) Total Pizzas Sold :
+   ```sql
+    SELECT SUM(quantity) as Total_Pizzas_Sold FROM pizza_sales;
+
+4) Daily Orders And Sales :
+   ```sql
+    SELECT DATENAME(DW,order_date) AS Day_Name,
+    COUNT(DISTINCT order_id) AS Total_Orders,
+    ROUND(SUM(total_price),2) AS Total_Revenue
+    FROM pizza_sales
+    GROUP BY DATENAME(DW,order_date)
+    ORDER BY Total_Orders DESC;
+
+5) Trend Hours By Orders :
+   ```sql
+    SELECT DATEPART(HOUR, order_time) AS Hour_Timing,
+    COUNT(DISTINCT order_id) AS total_orders
+    FROM pizza_sales
+    GROUP BY DATEPART(HOUR, order_time)
+    ORDER BY total_orders DESC;  
+6) % of Sales By Pizza Category :
+   ```sql
+    SELECT pizza_category ,
+    ROUND(SUM(total_price),2) AS Total_Revenue ,
+    ROUND(SUM(total_price) * 100 / (SELECT SUM(total_price) FROM pizza_sales),2)
+    AS Percentage_Value
+    FROM pizza_sales
+    GROUP BY pizza_category
+    ORDER BY Percentage_Value DESC;
