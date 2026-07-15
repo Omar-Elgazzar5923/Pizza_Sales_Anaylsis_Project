@@ -41,16 +41,22 @@ The project demonstrates the complete data analysis workflow, including data cle
 1) Total Revenue :
    ```sql
     SELECT ROUND(SUM(total_price),2) AS Total_Revenue FROM pizza_sales;
+   ```
+     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png)
 
 2) Total Orders :
    ```sql
     SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales;
+   ```
+     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png)
    
-3) Total Pizzas Sold :
+4) Total Pizzas Sold :
    ```sql
     SELECT SUM(quantity) as Total_Pizzas_Sold FROM pizza_sales;
-
-4) Daily Orders And Sales :
+	```
+     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png)
+   
+6) Daily Orders And Sales :
    ```sql
     SELECT DATENAME(DW,order_date) AS Day_Name,
     COUNT(DISTINCT order_id) AS Total_Orders,
@@ -58,16 +64,21 @@ The project demonstrates the complete data analysis workflow, including data cle
     FROM pizza_sales
     GROUP BY DATENAME(DW,order_date)
     ORDER BY Total_Orders DESC;
-
-5) Trend Hours By Orders :
+	```
+     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png)
+   
+8) Trend Hours By Orders :
    ```sql
     SELECT DATEPART(HOUR, order_time) AS Hour_Timing,
     COUNT(DISTINCT order_id) AS total_orders
     FROM pizza_sales
     GROUP BY DATEPART(HOUR, order_time)
-    ORDER BY total_orders DESC;  
-6) % of Sales By Pizza Category :
-   ```sql
+    ORDER BY total_orders DESC;
+   ```
+     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png)
+   
+10) % of Sales By Pizza Category :
+    ```sql
     SELECT pizza_category ,
     ROUND(SUM(total_price),2) AS Total_Revenue ,
     ROUND(SUM(total_price) * 100 / (SELECT SUM(total_price) FROM pizza_sales),2)
@@ -75,3 +86,5 @@ The project demonstrates the complete data analysis workflow, including data cle
     FROM pizza_sales
     GROUP BY pizza_category
     ORDER BY Percentage_Value DESC;
+    ```
+     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png)
