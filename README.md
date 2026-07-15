@@ -14,3 +14,10 @@ The project demonstrates the complete data analysis workflow, including data cle
 3. Analyze product performance.  
 4. Evaluate customer ordering behavior.  
 5. Support business decisions using data.  
+
+##  🛠 Tools Used
+
+1. Excel
+2. MS SQL Server
+3. Power Bi
+4. DAX
