@@ -65,7 +65,7 @@ The project demonstrates the complete data analysis workflow, including data cle
     GROUP BY DATENAME(DW,order_date)
     ORDER BY Total_Orders DESC;
 	```
-     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png)
+     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Daily%20Orders%20And%20Sales.png)
    
 8) Trend Hours By Orders :
    ```sql
