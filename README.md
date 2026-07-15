@@ -92,5 +92,4 @@ The project demonstrates the complete data analysis workflow, including data cle
 ## 🔗 Connect With Me
 
 [LinkedIn](https://www.linkedin.com/in/omar-adel-0839683a5/)  
-[GitHub](https://github.com/Omar-Elgazzar5923)
-[Email](mailto:omarelgazzar5923@gmail.com)
+[GitHub](https://github.com/Omar-Elgazzar5923)  
