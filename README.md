@@ -42,7 +42,7 @@ The project demonstrates the complete data analysis workflow, including data cle
    ```sql
     SELECT ROUND(SUM(total_price),2) AS Total_Revenue FROM pizza_sales;
    ```
-     ![image]([https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png))
+     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png)
 
 2) Total Orders :
    ```sql
