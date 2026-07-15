@@ -54,7 +54,7 @@ The project demonstrates the complete data analysis workflow, including data cle
    ```sql
     SELECT SUM(quantity) as Total_Pizzas_Sold FROM pizza_sales;
 	```
-     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png)
+     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Pizzas%20Sold.png)
    
 6) Daily Orders And Sales :
    ```sql
