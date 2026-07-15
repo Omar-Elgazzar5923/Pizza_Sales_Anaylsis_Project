@@ -88,3 +88,9 @@ The project demonstrates the complete data analysis workflow, including data cle
     ORDER BY Percentage_Value DESC;
     ```
      ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/%25%20of%20Sales%20By%20Pizza%20Category.png)
+
+## 🔗 Connect With Me
+
+[LinkedIn](https://www.linkedin.com/in/omar-adel-0839683a5/)  
+[GitHub](https://github.com/Omar-Elgazzar5923)
+[Email](mailto:omarelgazzar5923@gmail.com)
