@@ -22,8 +22,22 @@ The project demonstrates the complete data analysis workflow, including data cle
 3. Power Bi
 4. DAX
 
-[Dataset used](https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP](https://drive.google.com/file/d/11-6ahyMHzXEZr5qcQKP3x2fh_KgG1jpQ/view?usp=sharing))  
+ [Dataset used](https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP](https://drive.google.com/file/d/11-6ahyMHzXEZr5qcQKP3x2fh_KgG1jpQ/view?usp=sharing))  
 
-[SQL Anaylsis](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/SQL%20Anaylsis.sql)  
+ [SQL Anaylsis](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/SQL%20Anaylsis.sql)  
 
-[Project Dashboard](https://drive.google.com/file/d/13IyPZSsyy5lR7JjYbZ5pIVY6B11mgSd-/view?usp=sharing)
+ [Project Dashboard](https://drive.google.com/file/d/13IyPZSsyy5lR7JjYbZ5pIVY6B11mgSd-/view?usp=sharing)   
+
+## 📈 Key Insights
+
+1. Friday recorded the highest number of orders.  
+2. Large pizzas generated the highest revenue.  
+3. Classic pizzas accounted for the largest share of total sales.  
+4. A small number of pizzas generated most of the revenue.  
+5. Afternoon and evening represented peak ordering hours.
+
+## 💻 SQL Execution
+
+1) Total Revenue :
+   ```sql
+    SELECT ROUND(SUM(total_price),2) AS Total_Revenue FROM pizza_sales;
