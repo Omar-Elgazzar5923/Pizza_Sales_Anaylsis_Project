@@ -75,7 +75,7 @@ The project demonstrates the complete data analysis workflow, including data cle
     GROUP BY DATEPART(HOUR, order_time)
     ORDER BY total_orders DESC;
    ```
-     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png)
+     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Trend%20Hours%20By%20Orders.png)
    
 10) % of Sales By Pizza Category :
     ```sql
