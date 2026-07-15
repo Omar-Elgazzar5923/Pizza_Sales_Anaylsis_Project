@@ -24,4 +24,6 @@ The project demonstrates the complete data analysis workflow, including data cle
 
 [Dataset used](https://1drv.ms/x/s!AmKU00K1sOXkiXYGCmYAQfrCOGMJ?e=lz8diP](https://drive.google.com/file/d/11-6ahyMHzXEZr5qcQKP3x2fh_KgG1jpQ/view?usp=sharing))  
 
-[SQL Anaylsis](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/SQL%20Anaylsis.sql)
+[SQL Anaylsis](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/SQL%20Anaylsis.sql)  
+
+[Project Dashboard](https://drive.google.com/file/d/1D0WQHKTWK-Sd8RwbobrplgK_yXYa13fI/view?usp=sharing)
