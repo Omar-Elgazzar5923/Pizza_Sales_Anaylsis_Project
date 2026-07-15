@@ -50,13 +50,13 @@ The project demonstrates the complete data analysis workflow, including data cle
    ```
      ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Orders.png)
    
-4) Total Pizzas Sold :
+3) Total Pizzas Sold :
    ```sql
     SELECT SUM(quantity) as Total_Pizzas_Sold FROM pizza_sales;
 	```
      ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Pizzas%20Sold.png)
    
-6) Daily Orders And Sales :
+4) Daily Orders And Sales :
    ```sql
     SELECT DATENAME(DW,order_date) AS Day_Name,
     COUNT(DISTINCT order_id) AS Total_Orders,
@@ -67,7 +67,7 @@ The project demonstrates the complete data analysis workflow, including data cle
 	```
      ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Daily%20Orders%20And%20Sales.png)
    
-8) Trend Hours By Orders :
+5) Trend Hours By Orders :
    ```sql
     SELECT DATEPART(HOUR, order_time) AS Hour_Timing,
     COUNT(DISTINCT order_id) AS total_orders
@@ -77,7 +77,7 @@ The project demonstrates the complete data analysis workflow, including data cle
    ```
      ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Trend%20Hours%20By%20Orders.png)
    
-10) % of Sales By Pizza Category :
+6) % of Sales By Pizza Category :
     ```sql
     SELECT pizza_category ,
     ROUND(SUM(total_price),2) AS Total_Revenue ,
@@ -87,4 +87,4 @@ The project demonstrates the complete data analysis workflow, including data cle
     GROUP BY pizza_category
     ORDER BY Percentage_Value DESC;
     ```
-     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/Total%20Revenue.png)
+     ![image](https://github.com/Omar-Elgazzar5923/Pizza_Sales_Anaylsis_Project/blob/main/%25%20of%20Sales%20By%20Pizza%20Category.png)
